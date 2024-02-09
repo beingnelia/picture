@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="all">
+        <img src="" alt="dog" id="image">
+        <div class="foo">
+       <a href=""><button id="click">Get Dog</button></a>
+       </div>
+    </div>
+    <script>
+        const image=document.getElementById("image")
+        const btn=document.getElementById("click")
+        btn.addEventListener(fetch('https://random.dog/woof.json')
+        .then(response=>response.json())
+        .then(a=>image.src=a.url))
+        .catch(err=>xonsole.log(err))
+        fetchData()
+    </script>
+</body>
+</html>
