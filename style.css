@@ -5,6 +5,7 @@
 body{
      width: 100vw;
      height: 100vh;
+     background-color: burlywood;
 }
 #all{
     display: flex;
@@ -20,8 +21,9 @@ img{
 
 }
 button{
-    background-color: orange;
+    background-color:olivedrab;
     padding: 5px 40px;
+    border:none;
 }
 .foo{
     padding-top: 20px;
