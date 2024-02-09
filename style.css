@@ -6,18 +6,23 @@ body{
      width: 100vw;
      height: 100vh;
      background-color: burlywood;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #all{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    /* margin-top: 10%; */
 }
 img{
-   width: 20%;
-   height: 2%;
+   width: 200px;
+   height: 200px;
    padding-top: 30px;
+   
 
 }
 button{
@@ -28,6 +33,8 @@ button{
 .foo{
     padding-top: 20px;
 }
-@media screen {
-    
+button{
+    margin-top: 5px;
+    width: 15em;
+    padding-top: 8px;
 }
